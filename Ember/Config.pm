@@ -6,7 +6,7 @@ use strict;
 use warnings;
 use fields qw( dir );
 
-use Ember::Config::MacOS; # TODO dynamic loading
+use Ember::Config::UNIX; # TODO dynamic loading
 
 sub new {
     my ($self) = @_;
